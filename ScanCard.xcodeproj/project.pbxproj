@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D486B2AFDD4DD12F62F5EF5 /* ScanCardDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2845ECBE96DB42307A1CC0D1 /* ScanCardDataFlow.swift */; };
+		4AC30021AABA4B2DA7C604E5 /* ScanCardBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35908E8B759DC5223924653 /* ScanCardBuilder.swift */; };
+		52063184E50BC404985BF462 /* ScanCardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F1AB123874DEDD2F9837E /* ScanCardPresenter.swift */; };
+		65F9CB60B5702EA1E8394904 /* ScanCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EBB1628BD171A319832ED3 /* ScanCardViewController.swift */; };
+		74E28BFE073271FC4A496C45 /* ScanCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337AA90ACBB976CD65FFBE59 /* ScanCardView.swift */; };
+		95DF496F6BC7B4DB0B8F4BAD /* ScanCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447798EE404D0B769B71F2D /* ScanCardModel.swift */; };
+		C9BA05C029A33D5C00D0DEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA05BF29A33D5C00D0DEE3 /* AppDelegate.swift */; };
+		C9BA05C229A33D5C00D0DEE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA05C129A33D5C00D0DEE3 /* SceneDelegate.swift */; };
+		C9BA05C929A33D5E00D0DEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BA05C829A33D5E00D0DEE3 /* Assets.xcassets */; };
+		C9BA05CC29A33D5E00D0DEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BA05CA29A33D5E00D0DEE3 /* LaunchScreen.storyboard */; };
+		E47D5215C7C0DAD23C99B6F3 /* ScanCardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED1964BC50DAC76CF488AB /* ScanCardInteractor.swift */; };
+		FA1564874F3576981679E472 /* ScanCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C101DFEF65B3E703294968 /* ScanCardViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2845ECBE96DB42307A1CC0D1 /* ScanCardDataFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanCardDataFlow.swift; sourceTree = "<group>"; };
+		337AA90ACBB976CD65FFBE59 /* ScanCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanCardView.swift; sourceTree = "<group>"; };
+		874F1AB123874DEDD2F9837E /* ScanCardPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanCardPresenter.swift; sourceTree = "<group>"; };
+		89EBB1628BD171A319832ED3 /* ScanCardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanCardViewController.swift; sourceTree = "<group>"; };
+		BDED1964BC50DAC76CF488AB /* ScanCardInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanCardInteractor.swift; sourceTree = "<group>"; };
+		C3C101DFEF65B3E703294968 /* ScanCardViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanCardViewModel.swift; sourceTree = "<group>"; };
+		C447798EE404D0B769B71F2D /* ScanCardModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanCardModel.swift; sourceTree = "<group>"; };
+		C9BA05BC29A33D5C00D0DEE3 /* ScanCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BA05BF29A33D5C00D0DEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9BA05C129A33D5C00D0DEE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9BA05C829A33D5E00D0DEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9BA05CB29A33D5E00D0DEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9BA05CD29A33D5E00D0DEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35908E8B759DC5223924653 /* ScanCardBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanCardBuilder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BA05B929A33D5C00D0DEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0EBB838E1987AD647081C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3C101DFEF65B3E703294968 /* ScanCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		217B6695D08EB612B09085AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C447798EE404D0B769B71F2D /* ScanCardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28CC385D24B11B48217559A7 /* ScanCard */ = {
+			isa = PBXGroup;
+			children = (
+				E35908E8B759DC5223924653 /* ScanCardBuilder.swift */,
+				89EBB1628BD171A319832ED3 /* ScanCardViewController.swift */,
+				BDED1964BC50DAC76CF488AB /* ScanCardInteractor.swift */,
+				874F1AB123874DEDD2F9837E /* ScanCardPresenter.swift */,
+				2845ECBE96DB42307A1CC0D1 /* ScanCardDataFlow.swift */,
+				217B6695D08EB612B09085AB /* Model */,
+				1D0EBB838E1987AD647081C7 /* ViewModel */,
+				55577A20C36500024A8B3880 /* View */,
+			);
+			path = ScanCard;
+			sourceTree = "<group>";
+		};
+		4AC05A39A783F04822F76D6C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				28CC385D24B11B48217559A7 /* ScanCard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		55577A20C36500024A8B3880 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				337AA90ACBB976CD65FFBE59 /* ScanCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9BA05B329A33D5C00D0DEE3 = {
+			isa = PBXGroup;
+			children = (
+				C9BA05BE29A33D5C00D0DEE3 /* ScanCard */,
+				C9BA05BD29A33D5C00D0DEE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BA05BD29A33D5C00D0DEE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA05BC29A33D5C00D0DEE3 /* ScanCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BA05BE29A33D5C00D0DEE3 /* ScanCard */ = {
+			isa = PBXGroup;
+			children = (
+				C9BA05BF29A33D5C00D0DEE3 /* AppDelegate.swift */,
+				C9BA05C129A33D5C00D0DEE3 /* SceneDelegate.swift */,
+				4AC05A39A783F04822F76D6C /* Modules */,
+				C9BA05C829A33D5E00D0DEE3 /* Assets.xcassets */,
+				C9BA05CA29A33D5E00D0DEE3 /* LaunchScreen.storyboard */,
+				C9BA05CD29A33D5E00D0DEE3 /* Info.plist */,
+			);
+			path = ScanCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BA05BB29A33D5C00D0DEE3 /* ScanCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BA05D029A33D5E00D0DEE3 /* Build configuration list for PBXNativeTarget "ScanCard" */;
+			buildPhases = (
+				C9BA05B829A33D5C00D0DEE3 /* Sources */,
+				C9BA05B929A33D5C00D0DEE3 /* Frameworks */,
+				C9BA05BA29A33D5C00D0DEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanCard;
+			productName = ScanCard;
+			productReference = C9BA05BC29A33D5C00D0DEE3 /* ScanCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BA05B429A33D5C00D0DEE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C9BA05BB29A33D5C00D0DEE3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C9BA05B729A33D5C00D0DEE3 /* Build configuration list for PBXProject "ScanCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BA05B329A33D5C00D0DEE3;
+			productRefGroup = C9BA05BD29A33D5C00D0DEE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BA05BB29A33D5C00D0DEE3 /* ScanCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BA05BA29A33D5C00D0DEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA05CC29A33D5E00D0DEE3 /* LaunchScreen.storyboard in Resources */,
+				C9BA05C929A33D5E00D0DEE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BA05B829A33D5C00D0DEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BA05C029A33D5C00D0DEE3 /* AppDelegate.swift in Sources */,
+				C9BA05C229A33D5C00D0DEE3 /* SceneDelegate.swift in Sources */,
+				4AC30021AABA4B2DA7C604E5 /* ScanCardBuilder.swift in Sources */,
+				65F9CB60B5702EA1E8394904 /* ScanCardViewController.swift in Sources */,
+				E47D5215C7C0DAD23C99B6F3 /* ScanCardInteractor.swift in Sources */,
+				52063184E50BC404985BF462 /* ScanCardPresenter.swift in Sources */,
+				3D486B2AFDD4DD12F62F5EF5 /* ScanCardDataFlow.swift in Sources */,
+				95DF496F6BC7B4DB0B8F4BAD /* ScanCardModel.swift in Sources */,
+				FA1564874F3576981679E472 /* ScanCardViewModel.swift in Sources */,
+				74E28BFE073271FC4A496C45 /* ScanCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9BA05CA29A33D5E00D0DEE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BA05CB29A33D5E00D0DEE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BA05CE29A33D5E00D0DEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BA05CF29A33D5E00D0DEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BA05D129A33D5E00D0DEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733T3VK6AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScanCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = postnikovpetr.ScanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9BA05D229A33D5E00D0DEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 733T3VK6AH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScanCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = postnikovpetr.ScanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BA05B729A33D5C00D0DEE3 /* Build configuration list for PBXProject "ScanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BA05CE29A33D5E00D0DEE3 /* Debug */,
+				C9BA05CF29A33D5E00D0DEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BA05D029A33D5E00D0DEE3 /* Build configuration list for PBXNativeTarget "ScanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BA05D129A33D5E00D0DEE3 /* Debug */,
+				C9BA05D229A33D5E00D0DEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BA05B429A33D5C00D0DEE3 /* Project object */;
+}
